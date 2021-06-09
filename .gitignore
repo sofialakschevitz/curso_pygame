@@ -133,3 +133,7 @@ dmypy.json
 
 #acho que criei errado
 .gitignore.save
+
+# pycharm
+.idea/
+
