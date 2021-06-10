@@ -32,7 +32,7 @@ Também criamos um arquivo de texto na raiz do nosso projeto, chamado de [requir
 
 Nesta fase, se executado, o módulo `main.py` apenas apresenta uma janela escura.
 
-## fase_1_corrigida_ 1
+## fase_1_corrigida
 Na fase 1 vamos usar uma classe para organizar a inicialização e os parâmetros do nosso jogo. Vamos também criar um módulo adicional para cuidar da especificação do plano de fundo do jogo.
 
 ```bash
