@@ -18,7 +18,7 @@ git fetch --all --tags
 # O Jogo
 O jogo que iremos criar chama-se "Corona Shooter". e trata-se de um jogo de naves espaciais inspirado em uma pandemia de coronavirus.
 
-## Fase 0
+## fase 0
 Na fase 0 começamos a organizar basicamente o nosso código. Para viajar no tempo até a faso 0 use o seguinte comando:
 
 ```bash
@@ -32,7 +32,7 @@ Também criamos um arquivo de texto na raiz do nosso projeto, chamado de [requir
 
 Nesta fase, se executado, o módulo `main.py` apenas apresenta uma janela escura.
 
-## Fase 1
+## fase_1_corrigida_ 1
 Na fase 1 vamos usar uma classe para organizar a inicialização e os parâmetros do nosso jogo. Vamos também criar um módulo adicional para cuidar da especificação do plano de fundo do jogo.
 
 ```bash
@@ -41,14 +41,14 @@ git checkout fase_1_corrigida
 
 Ao final desta fase temos nosso plano de fundo rolando de cima para baixo no nosso jogo. Para isso também adicionamos uma imagem de fundo a um diretório de imagens onde iremos manter todos os elementos gráficos do nosso projeto. 
 
-## Fase 2
+## fase_2
 Nesta fase iremos adicionar outros controles ao jogo.
 ```bash
 git checkout fase_2
 ```
 Nesta fase movemos o tratamento de eventos para um método separado, e configuramos a tecla `ESC` como tecla de sair do jogo.
 
-## Fase 3
+## fase 3
 Nesta fase vamos adicionar a Nave.
 
 ```bash
@@ -60,7 +60,7 @@ Em seguida iremos criar uma classe para a Nave do jogador e outra para as naves 
 
 Ao final desta fase poderemos ver as naves na tela.
 
-## Fase 4
+## fase 4
 Nesta fase vamos adicionar movimento às naves. Neste processo vamos adicionar também algumas coisas a mais, como a geração de novos virus, controle movimentos da nave do jogador, outras coisas a mais. 
 
 Veja como o jogo ficou.
@@ -68,7 +68,7 @@ Veja como o jogo ficou.
 git checkout fase_4
 ```
 
-## Fase 5
+## fase 5
 Na fase 5 vamos adicionar tiros e colisões para completar o Jogo.
 
 Os tiros serão implementados como uma classe. Também foram implementados pontuação e passagem de fases pelo jogador.
