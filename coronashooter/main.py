@@ -36,7 +36,7 @@ class Jogo:
 
     def trata_eventos(self):
         event = pygame.event.poll()
-        if event.type == pygame.QUIT:
+        if event.type == QUIT:
             self.run = False
 
         if event.type in (KEYDOWN, KEYUP):
