@@ -130,6 +130,7 @@ dmypy.json
 
 #MACOS
 .DS_Store
+coronashooter/.DS_Store
 
 #acho que criei errado
 .gitignore.save
